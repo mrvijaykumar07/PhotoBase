@@ -2,9 +2,7 @@ import React from "react";
 import { useState } from "react";
 import { Link } from "react-router-dom";
 import logo from "../../assets/images/logoMain.avif";
-import CANADA from "../../assets/images/canada.png";
-import USA from "../../assets/images/usa.png";
-
+// link updated
 import MobileSideMenu from "./MobileSideMenu";
 import { HiX } from "react-icons/hi";
 
@@ -27,7 +25,7 @@ const Navbar = () => {
 
           <div className="relative group">
             <Link to="/product" className="hover:text-blue-600 transition">
-              Partener
+              parteners
             </Link>
 
             {/* Dropdown Box with Arrow */}
